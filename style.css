@@ -75,6 +75,7 @@ input:checked + .slider:before {
 .input{
      background-color: rgba(253,130,5,1);
     color: white ;
+    border: none;
      
 }
 ::placeholder {
