@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="container mt-4 p-5">
+            <div class="row">
+                <div class="col p-3">
+                     <div class="mt-0">
+                        <div class="d-flex justify-content-start m-0">
+
+                            <h4 class="mb-2">Selet Plan</h4>
+                        </div>
+                         <div class="d-flex justify-content-end mb-4">
+                            <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                            </label>
+
+                        </div>
+                    </div>
+                    <div class="card_border border border-warning p-4">
+
+                         <div class="input-group mb-3">
+                                <select class="form-select form-control input">
+                                    <option selected>Select Plan:</option>
+                                    <option >Basic</option> 
+                                    <option >Standard</option> 
+                                    <option id="myoption">Premium</option> 
+                                   
+                                </select>
+                        </div>
+                         <div class="input-group mb-3">
+                                <select class="form-select form-control input">
+                                    <option selected>Select Ecommerce Add-on:</option>
+                                    <option>None</option> 
+                                    <option>Standard</option> 
+                                    <option>Advanced</option> 
+                                    <option>Unlimited</option> 
+                                </select>
+                               
+                        </div>
+                     
+
+                           <div class="mb-3">
+                               <label  class="form-label">Coupon</label>
+                               <input type="text" class="form-control input"  placeholder="Coupon Code Here">
+                            </div>
+                    </div>
+                        <div>
+                        <h5 class="d-flex justify-content-end p-3 fs-3">Total : $78</h5>
+                        </div>
+                </div>
+               
+
+                <div class="col p-3 mt-5">
+                       <div >
+                         <h3 class="d-flex justify-content-center">Account Information</h3>
+                       </div>
+                        <div class="col card_border border border-warning p-3">
+                            <div class="mb-3">
+                                <input type="text" class="form-control input" id="exampleFormControlInput1" placeholder=" First Name :">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control input" id="exampleFormControlInput1" placeholder="Last Name :">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control input" id="exampleFormControlInput1" placeholder="Email :">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control input" id="exampleFormControlInput1" placeholder="Card Information">
+                            </div>
+                      
+                     
+
+                        </div>
+
+                        <div class="d-flex justify-content-end p-3">
+                              <button class="btn btn-ordenge rounded fs-4 ">Submit</button>   
+                        </div>
+                </div>
+
+                 
+                
+               
+            </div>
+    </section>
+     
+
+
+
+
+   <!-- <script>
+    
+function myFunction(){
+
+    const selectDiv = document.createElement('div');
+   selectDiv.classList.add('select');
+    selectDiv.innerHTML =`
+      <div class="input-group mb-3">
+                                <select class="form-select form-control input">
+                                    <option selected>Select Plan:</option>
+                                    <option id="24083">Basic</option> 
+                                    <option id="5848">Standard</option> 
+                                    <option id="63246" onclick="myFunction()">Premium</option> 
+                                </select>
+                               
+                        </div>
+ 
+    
+  
+  
+    `;
+    cardContainer.appendChild(electDiv);
+    }
+    
+   </script> -->
+
+
+
+    <!-- <form method="post" class="dmRespDesignRow" locale="ENGLISH" id="1245855370"> <div class="first_name dmforminput small-12 dmRespDesignCol medium-6 large-6 required" id="1555328769"> <label for="1146462721" id="1018814346" class="" hide="true" data-dm-for="dmform-2">First Name:</label> 
+<input type="text" name="dmform-2" id="1146462721" class="" placeholder="First Name:" data-placeholder-original="First Name:"><input type="hidden" name="label-dmform-2" value="First Name:" id="1503359818" class=""></div> 
+ <div class="last_name dmforminput small-12 dmRespDesignCol medium-6 large-6 required" id="1687992665"> <label for="1227024085" id="1505751068" class="" hide="true" data-dm-for="dmform-3">Last Name:</label> 
+<input type="text" name="dmform-3" id="1227024085" class="" placeholder="Last Name:" data-placeholder-original="Last Name:"><input type="hidden" name="label-dmform-3" value="Last Name:" id="1637850488" class=""></div> 
+ <div class="email dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1474502327"> <label for="1879402169" id="1489956147" class="" hide="true" data-dm-for="dmform-1">Email:</label> 
+<input type="email" class="" name="dmform-1" id="1879402169" placeholder="Email:" data-placeholder-original="Email:"><input type="hidden" name="label-dmform-1" value="Email:" id="1907458668" class=""></div> 
+ <div class="plan dmforminput small-12 dmRespDesignCol medium-12 large-12" id="1450857563"> <label for="1932912717" id="1395305102" class="" hide="true" data-dm-for="dmform-7">Select Plan</label> 
+ <select name="dmform-7" id="1932912717"> <option selected="" disabled="" hidden="" value="" id="1136545483">Select Plan:</option> 
+ <option id="24083">Basic</option> 
+ <option id="5848">Standard</option> 
+ <option id="63246">Premium</option> 
+</select> 
+<input type="hidden" name="label-dmform-7" value="Select Plan" id="1677895909" class=""></div> 
+ <div class="ecom_addon not_plat dmforminput small-12 dmRespDesignCol medium-12 large-12" id="1320624883"> <label for="1856341533" id="1183375317" class="" hide="true" data-dm-for="dmform-8">Select Ecommerce Add-on</label> 
+ <select name="dmform-8" id="1856341533"> <option selected="" disabled="" hidden="" value="" id="1884147911">Select Ecommerce Add-on:</option> 
+ <option id="45774">None</option> 
+ <option id="7564">Standard</option> 
+ <option id="21987">Advanced</option> 
+ <option id="82572">Unlimited</option> 
+</select> 
+<input type="hidden" name="label-dmform-8" value="Select Ecommerce Add-on" id="1066865351" class=""></div> 
+ <span id="1478018922" class="dmWidgetClear"></span> 
+<input name="dmformsendto" type="hidden" value="O0wrseIfFLvDG+myPC9aqC2WV1izN0HztylpiFC819rlXyvbW6WpwGiOb3MDHeNn2ZaY7s+VFiE=" id="1106303778" data-dec="true"><input class="dmActionInput" type="hidden" name="action" value="/_dm/s/rt/widgets/dmform.submit.jsp" id="1947998003"><input name="dmformsubject" type="hidden" value="Start Building Form Submission" id="1432709244" class=""><input name="dmformfrom" type="hidden" value="" id="1861457614"></form> -->
+
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
